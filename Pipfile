@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gunicorn = "==19.7.1"
+flask-restplus = "*"
+python-dotenv = "*"
+flask = "*"
+boto3 = "*"
+pillow = "*"
+werkzeug = "*"
+flask-cors = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+psycopg2-binary = "*"
+twilio = "*"
+emoji = "*"
+flask-admin = "*"
+flask-basicauth = "*"
+pytest-flask = "*"
+pytest-cov = "*"
+pytest-sugar = "*"
+pytest = "<5.4.0"
+flask-restx = "*"
+slackeventsapi = "*"
+slackclient = "==2.7.2"
+celery = "*"
+redis = "*"
+
+[dev-packages]
+pytest = "*"
+bumpversion = "*"
+pytest-sugar = "*"
+pytest-cov = "*"
+
+[requires]
+python_version = "3.7"

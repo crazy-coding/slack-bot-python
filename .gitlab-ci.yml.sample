@@ -1,0 +1,7 @@
+deploy:
+  stage: deploy
+  only:
+    - master
+  script:
+    - gem install dpl
+    - dpl --provider=heroku --app=ack-bot-dev --api-key=$HEROKU_STAGING_API_KEY
